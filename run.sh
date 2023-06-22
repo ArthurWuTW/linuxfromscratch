@@ -37,5 +37,8 @@ if [ ${LFS_INIT} == 1 ];
 then
   echo "Run create-lfs-dirs.sh..."
   ./create-lfs-dirs.sh
+  echo "Run add-lfs-user.sh..."
+  ./add-lfs-user.sh
+
 fi
 
