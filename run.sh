@@ -19,7 +19,11 @@ if [ ${CHECK_PARTITION} == 1 ];
 then
   echo "Run check-partition.sh..."
   ./check-partition.sh
-
 fi
 
+if [ ${CHECK_MOUNT} == 1 ];
+then
+  echo "Run check-lfs-mount.sh..."
+  ./check-lfs-mount.sh
+fi
 
