@@ -27,3 +27,8 @@ then
   ./check-lfs-mount.sh
 fi
 
+if [ ${DOWNLAOD_LFS_PKG} == 1 ];
+then
+  echo "Run downlad_lfs_pkg.sh..."
+  ./download_lfs_pkg.sh
+fi
