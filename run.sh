@@ -27,8 +27,15 @@ then
   ./check-lfs-mount.sh
 fi
 
-if [ ${DOWNLAOD_LFS_PKG} == 1 ];
+if [ ${DOWNLOAD_LFS_PKG} == 1 ];
 then
   echo "Run downlad_lfs_pkg.sh..."
   ./download_lfs_pkg.sh
 fi
+
+if [ ${LFS_INIT} == 1 ];
+then
+  echo "Run create-lfs-dirs.sh..."
+  ./create-lfs-dirs.sh
+fi
+

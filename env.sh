@@ -14,3 +14,6 @@ echo "DOWNLOAD_LFS_PKG : ${DOWNLOAD_LFS_PKG}"
 # host environment
 export CHECK_MOUNT=1
 echo "CHECK_MOUNT : ${CHECK_MOUNT}"
+
+export LFS_INIT=1
+echo "LFS_INIT : ${LFS_INIT}"
