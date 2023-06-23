@@ -36,3 +36,5 @@ dnf install -y epel-release
 dnf config-manager --set-enabled powertools
 dnf update -y
 dnf install -y texinfo-tex
+
+yum install automake # failed when compiling gcc

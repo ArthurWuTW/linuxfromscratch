@@ -53,6 +53,11 @@ case $(uname -m) in
 ;;
 esac
 
+# Issue: 
+#   If autoconf version mismatch error, do this command
+#cd ${SRC_DIR}/${FILE}/mpfr && autoreconf
+
+
 cd ${SRC_DIR}/${FILE}
 mkdir -v build
 cd build
