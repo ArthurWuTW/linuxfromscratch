@@ -29,7 +29,7 @@ echo "rootsbindir=/usr/sbin" > configparms
   --with-headers=$LFS/usr/include  \
   libc_cv_slibdir=/usr/lib
 
-
+make all
 make DESTDIR=$LFS install
 
 
