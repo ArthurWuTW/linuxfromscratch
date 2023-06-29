@@ -7,3 +7,4 @@
 ./install_glibc_setup_symbolic_link.sh
 ./install_finalize_limit_h_gcc_developers.sh
 ./install_libstdc++.sh
+./remove_libstdc++_la_file.sh
