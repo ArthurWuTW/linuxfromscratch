@@ -1,0 +1,3 @@
+cd linuxfromscratch/pkg_cross_compiling_temporary_tools_script/
+su lfs
+./lfs_user_install_all.sh
