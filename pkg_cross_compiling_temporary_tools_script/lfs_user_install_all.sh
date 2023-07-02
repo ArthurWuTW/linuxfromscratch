@@ -21,4 +21,7 @@ then
   echo "Run install_coreutils.sh..."
   ./install_coreutils.sh
 
+  echo "Run install_diffutils.sh..."
+  ./install_diffutils.sh
+
 fi
