@@ -30,4 +30,7 @@ then
   echo "Run install_findutils.sh..."
   ./install_findutils.sh
 
+  echo "Run install_gawk.sh..."
+  ./install_gawk.sh
+
 fi
