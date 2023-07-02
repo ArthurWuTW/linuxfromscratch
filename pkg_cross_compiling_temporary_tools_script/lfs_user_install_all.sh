@@ -47,4 +47,7 @@ then
 
   echo "Run install_sed.sh..."
   ./install_sed.sh
+
+  echo "Run install_tar.sh..."
+  ./install_tar.sh
 fi
