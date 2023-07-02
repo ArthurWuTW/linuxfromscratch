@@ -14,4 +14,7 @@ then
 
   echo "Run install_ncurses.sh..."
   ./install_ncurses.sh
+
+  echo "Run install_bash.sh..."
+  ./install_bash.sh
 fi
