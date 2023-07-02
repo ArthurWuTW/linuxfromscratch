@@ -38,4 +38,7 @@ then
 
   echo "Run install_gzip.sh..."
   ./install_gzip.sh
+
+  echo "Run install_make.sh..."
+  ./install_make.sh
 fi
