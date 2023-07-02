@@ -50,4 +50,7 @@ then
 
   echo "Run install_tar.sh..."
   ./install_tar.sh
+
+  echo "Run install_xz.sh..."
+  ./install_xz.sh
 fi
