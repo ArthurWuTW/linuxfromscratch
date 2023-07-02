@@ -27,4 +27,7 @@ then
   echo "Run install_file.sh..."
   ./install_file.sh
 
+  echo "Run install_findutils.sh..."
+  ./install_findutils.sh
+
 fi
