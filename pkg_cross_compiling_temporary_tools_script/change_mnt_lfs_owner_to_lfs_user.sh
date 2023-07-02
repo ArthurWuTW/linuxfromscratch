@@ -2,4 +2,4 @@
 
 LFS=/mnt/lfs
 
-chown -Rv lfs $LFS/*
+sudo chown -Rv lfs $LFS/*
