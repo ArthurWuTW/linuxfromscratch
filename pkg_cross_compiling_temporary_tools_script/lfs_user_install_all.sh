@@ -24,4 +24,7 @@ then
   echo "Run install_diffutils.sh..."
   ./install_diffutils.sh
 
+  echo "Run install_file.sh..."
+  ./install_file.sh
+
 fi
