@@ -53,4 +53,7 @@ then
 
   echo "Run install_xz.sh..."
   ./install_xz.sh
+
+  echo "Run install_binutils.sh..."
+  ./install_binutils.sh
 fi
