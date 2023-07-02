@@ -36,4 +36,6 @@ then
   echo "Run install_grep.sh..."
   ./install_grep.sh
 
+  echo "Run install_gzip.sh..."
+  ./install_gzip.sh
 fi
