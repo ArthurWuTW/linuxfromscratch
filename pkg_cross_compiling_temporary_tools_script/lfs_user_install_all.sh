@@ -41,4 +41,7 @@ then
 
   echo "Run install_make.sh..."
   ./install_make.sh
+
+  echo "Run install_patch.sh..."
+  ./install_patch.sh
 fi
