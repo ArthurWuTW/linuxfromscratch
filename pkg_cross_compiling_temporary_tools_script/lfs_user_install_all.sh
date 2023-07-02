@@ -44,4 +44,7 @@ then
 
   echo "Run install_patch.sh..."
   ./install_patch.sh
+
+  echo "Run install_sed.sh..."
+  ./install_sed.sh
 fi
