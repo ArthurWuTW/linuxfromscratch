@@ -17,4 +17,8 @@ then
 
   echo "Run install_bash.sh..."
   ./install_bash.sh
+
+  echo "Run install_coreutils.sh..."
+  ./install_coreutils.sh
+
 fi
