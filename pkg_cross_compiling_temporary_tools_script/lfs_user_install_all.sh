@@ -33,4 +33,7 @@ then
   echo "Run install_gawk.sh..."
   ./install_gawk.sh
 
+  echo "Run install_grep.sh..."
+  ./install_grep.sh
+
 fi
