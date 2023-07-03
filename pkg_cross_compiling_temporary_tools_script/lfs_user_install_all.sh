@@ -56,4 +56,7 @@ then
 
   echo "Run install_binutils.sh..."
   ./install_binutils.sh
+
+  echo "Run install_gcc.sh..."
+  ./install_gcc.sh
 fi
