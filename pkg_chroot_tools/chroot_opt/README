@@ -5,5 +5,5 @@
 5. chroot_install_perl.sh 
 6. chroot_install_python.sh
 7. chroot_install_texinfo.sh
-8. 
+8. chroot_install_util-linux.sh 
 9. 
