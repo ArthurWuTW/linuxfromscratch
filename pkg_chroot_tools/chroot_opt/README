@@ -2,5 +2,5 @@
 2. chroot_create_essential_files_and_symlinks.sh
 3. chroot_install_gettext.sh
 4. chroot_install_bison.sh
-5. 
+5. chroot_install_perl.sh 
 6. 
