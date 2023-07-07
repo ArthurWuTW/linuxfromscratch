@@ -1,3 +1,7 @@
 1. virtual_kernel_file_sys.sh
 2. mount_chroot_opt.sh
 3. entering_chroot_env.sh
+
+enter chroot lfs as root....
+cd /opt/
+cat README  # follow README steps

@@ -1,0 +1,3 @@
+1. chroot_create_sys_dirs.sh
+2. chroot_create_essential_files_and_symlinks.sh
+3. chroot_install_gettext.sh
