@@ -4,6 +4,6 @@
 4. chroot_install_bison.sh
 5. chroot_install_perl.sh 
 6. chroot_install_python.sh
-7. 
+7. chroot_install_texinfo.sh
 8. 
 9. 
