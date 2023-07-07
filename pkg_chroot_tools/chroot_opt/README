@@ -3,4 +3,7 @@
 3. chroot_install_gettext.sh
 4. chroot_install_bison.sh
 5. chroot_install_perl.sh 
-6. 
+6. chroot_install_python.sh
+7. 
+8. 
+9. 
