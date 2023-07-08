@@ -5,3 +5,9 @@
 enter chroot lfs as root....
 cd /opt/
 cat README  # follow README steps
+
+
+after finishing chroot lfs steps...
+1. umount_host_sysdirs.sh
+2.
+3.
