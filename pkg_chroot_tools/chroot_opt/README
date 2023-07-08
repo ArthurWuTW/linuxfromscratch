@@ -2,18 +2,17 @@
 2. chroot_create_essential_files_and_symlinks.sh
 3. chroot_install_gettext.sh
 4. chroot_install_bison.sh
-5. chroot_install_perl.sh 
+5. chroot_install_perl.sh
 6. chroot_install_python.sh
 7. chroot_install_texinfo.sh
-8. chroot_install_util-linux.sh 
+8. chroot_install_util-linux.sh
 9. chroot_clean_temp_files.sh
 10. [optional] chroot_clean_slash_tools.sh
 11. chroot_install_man-pages.sh
-12.
+12. chroot_install_iana.sh
 13.
 14.
 15.
 16.
 17.
 18.
-
