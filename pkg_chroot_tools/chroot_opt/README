@@ -8,3 +8,12 @@
 8. chroot_install_util-linux.sh 
 9. chroot_clean_temp_files.sh
 10. [optional] chroot_clean_slash_tools.sh
+11. chroot_install_man-pages.sh
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+
