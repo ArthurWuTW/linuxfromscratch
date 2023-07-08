@@ -1,4 +1,4 @@
-1. virtual_kernel_file_sys.sh
+1. virtual_kernel_file_sys_and_mount_host_sysdirs.sh
 2. mount_chroot_opt.sh
 3. entering_chroot_env.sh
 
