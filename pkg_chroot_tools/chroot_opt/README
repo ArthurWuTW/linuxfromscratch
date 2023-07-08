@@ -6,4 +6,5 @@
 6. chroot_install_python.sh
 7. chroot_install_texinfo.sh
 8. chroot_install_util-linux.sh 
-9. 
+9. chroot_clean_temp_files.sh
+10. [optional] chroot_clean_slash_tools.sh
