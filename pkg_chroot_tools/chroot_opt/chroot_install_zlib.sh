@@ -17,4 +17,8 @@ make
 make check
 rm -fv /usr/lib/libz.a
 
-cp -v {zlib.h,zconf.h} /usr/include/ # fix compiling binutils 
+cp -v {zlib.h,zconf.h} /usr/include/ # fix compiling binutils
+
+cp libz.so.1.2.13 /usr/lib/
+ln -s /usr/lib/libz.so.1.2.13 /usr/lib/libz.so
+ln -s /usr/lib/libz.so.1.2.13 /usr/lib/libz.so.1
