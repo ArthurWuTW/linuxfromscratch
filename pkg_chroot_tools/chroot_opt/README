@@ -24,7 +24,7 @@
 24. chroot_install_flex.sh
 25. chroot_install_tcl.sh
 26. chroot_install_expect.sh
-27.
+27. chroot_install_dejagnu.sh
 28.
 29.
 30.
