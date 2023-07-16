@@ -16,10 +16,23 @@
 16. chroot_install_zlib.sh
 17. chroot_install_bzip2.sh
 18. chroot_install_xz.sh
-19. chroot_install_zstd.sh
+19. chroot_install_zstd.sh  ---> compile lib success, but compile programs failed
 20.
 21.
 22.
 23.
 24.
 25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38
