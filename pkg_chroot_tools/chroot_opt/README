@@ -12,7 +12,7 @@
 12. chroot_install_iana.sh
 13. chroot_install_glibc.sh
 14. chroot_configure_glibc.sh
-15.
+15. chroot_configure_dynamic_loader.sh
 16.
 17.
 18.
