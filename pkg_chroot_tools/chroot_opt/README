@@ -14,5 +14,13 @@
 14. chroot_configure_glibc.sh
 15. chroot_configure_dynamic_loader.sh
 16. chroot_install_zlib.sh
-17.
+17. chroot_install_bzip2.sh
 18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+
