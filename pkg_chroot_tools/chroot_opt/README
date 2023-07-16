@@ -28,7 +28,7 @@
 28. chroot_install_binutils.sh
 29. chroot_install_gmp.sh
 30. chroot_install_mpfr.sh
-31.
+31. chroot_install_mpc.sh
 32.
 33.
 34.
