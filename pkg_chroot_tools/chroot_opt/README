@@ -32,7 +32,7 @@
 32. chroot_install_attr.sh
 33. chroot_install_acl.sh
 34. chroot_install_libcap.sh
-35.
+35. chroot_install_shadow.sh
 36.
 37.
 38
