@@ -18,7 +18,7 @@
 18. chroot_install_xz.sh
 19. chroot_install_zstd.sh  ---> compile lib success, but compile programs failed
 20. chroot_install_file.sh
-21.
+21. chroot_install_readline.sh
 22.
 23.
 24.
