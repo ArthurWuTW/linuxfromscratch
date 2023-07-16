@@ -16,3 +16,5 @@ cd $SRC_DIR/$FILE
 make
 make check
 rm -fv /usr/lib/libz.a
+
+cp -v {zlib.h,zconf.h} /usr/include/ # fix compiling binutils 

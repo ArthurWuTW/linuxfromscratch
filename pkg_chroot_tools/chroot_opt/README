@@ -25,7 +25,7 @@
 25. chroot_install_tcl.sh
 26. chroot_install_expect.sh
 27. chroot_install_dejagnu.sh
-28.
+28. chroot_install_binutils.sh
 29.
 30.
 31.
