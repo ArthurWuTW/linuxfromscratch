@@ -31,7 +31,7 @@
 31. chroot_install_mpc.sh
 32. chroot_install_attr.sh
 33. chroot_install_acl.sh
-34.
+34. chroot_install_libcap.sh
 35.
 36.
 37.
