@@ -29,7 +29,7 @@
 29. chroot_install_gmp.sh
 30. chroot_install_mpfr.sh
 31. chroot_install_mpc.sh
-32.
+32. chroot_install_attr.sh
 33.
 34.
 35.
