@@ -22,7 +22,7 @@
 22. chroot_install_m4.sh
 23. chroot_install_bc.sh
 24. chroot_install_flex.sh
-25.
+25. chroot_install_tcl.sh
 26.
 27.
 28.
