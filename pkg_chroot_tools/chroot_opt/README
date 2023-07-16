@@ -21,7 +21,7 @@
 21. chroot_install_readline.sh
 22. chroot_install_m4.sh
 23. chroot_install_bc.sh
-24.
+24. chroot_install_flex.sh
 25.
 26.
 27.
