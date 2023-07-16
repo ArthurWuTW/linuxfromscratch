@@ -12,5 +12,6 @@ fi
 
 cd $SRC_DIR/$FILE
 
+make check
 make prefix=/usr install
 rm -v /usr/lib/libzstd.a
