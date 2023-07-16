@@ -23,7 +23,7 @@
 23. chroot_install_bc.sh
 24. chroot_install_flex.sh
 25. chroot_install_tcl.sh
-26.
+26. chroot_install_expect.sh
 27.
 28.
 29.
