@@ -33,6 +33,18 @@
 33. chroot_install_acl.sh
 34. chroot_install_libcap.sh
 35. chroot_install_shadow.sh
-36.
+36. chroot_install_gcc.sh
 37.
-38
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
