@@ -26,7 +26,7 @@
 26. chroot_install_expect.sh
 27. chroot_install_dejagnu.sh
 28. chroot_install_binutils.sh
-29.
+29. chroot_install_gmp.sh
 30.
 31.
 32.
