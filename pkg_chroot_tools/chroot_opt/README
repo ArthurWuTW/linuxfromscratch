@@ -11,7 +11,7 @@
 11. chroot_install_man-pages.sh
 12. chroot_install_iana.sh
 13. chroot_install_glibc.sh
-14.
+14. chroot_configure_glibc.sh
 15.
 16.
 17.
