@@ -34,7 +34,7 @@
 34. chroot_install_libcap.sh
 35. chroot_install_shadow.sh
 36. chroot_install_gcc.sh
-37.
+37. chroot_install_pkg-config.sh
 38.
 39.
 40.
