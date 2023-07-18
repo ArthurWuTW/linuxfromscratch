@@ -44,7 +44,7 @@
 44. chroot_install_bash.sh
 45. chroot_install_libtool.sh
 46. chroot_install_gdbm.sh
-47.
+47. chroot_install_gperf.sh
 48.
 49.
 50.
