@@ -43,7 +43,7 @@
 43. chroot_install_grep.sh
 44. chroot_install_bash.sh
 45. chroot_install_libtool.sh
-46.
+46. chroot_install_gdbm.sh
 47.
 48.
 49.
