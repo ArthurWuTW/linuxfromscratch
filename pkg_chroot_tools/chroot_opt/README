@@ -41,7 +41,7 @@
 41. chroot_install_gettext2.sh
 42. chroot_install_bison2.sh
 43. chroot_install_grep.sh
-44.
+44. chroot_install_bash.sh
 45.
 46.
 47.
