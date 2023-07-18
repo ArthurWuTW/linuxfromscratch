@@ -48,7 +48,7 @@
 48. chroot_install_expat.sh
 49. chroot_install_inetutils.sh
 50. chroot_install_less.sh
-51.
+51. chroot_install_perl2.sh
 52.
 53.
 54.
