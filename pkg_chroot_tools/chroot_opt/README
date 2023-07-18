@@ -39,7 +39,7 @@
 39. chroot_install_sed.sh
 40. chroot_install_psmisc.sh
 41. chroot_install_gettext2.sh
-42.
+42. chroot_install_bison2.sh
 43.
 44.
 45.
