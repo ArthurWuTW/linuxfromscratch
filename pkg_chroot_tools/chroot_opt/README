@@ -38,7 +38,7 @@
 38. chroot_install_ncurses.sh
 39. chroot_install_sed.sh
 40. chroot_install_psmisc.sh
-41.
+41. chroot_install_gettext2.sh
 42.
 43.
 44.
