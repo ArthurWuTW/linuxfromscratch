@@ -36,7 +36,7 @@
 36. chroot_install_gcc.sh
 37. chroot_install_pkg-config.sh
 38. chroot_install_ncurses.sh
-39.
+39. chroot_install_sed.sh
 40.
 41.
 42.
