@@ -49,7 +49,7 @@
 49. chroot_install_inetutils.sh
 50. chroot_install_less.sh
 51. chroot_install_perl2.sh
-52.
+52. chroot_install_xml-parser.sh
 53.
 54.
 55.
