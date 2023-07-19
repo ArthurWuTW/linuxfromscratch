@@ -54,7 +54,7 @@
 54. chroot_install_autoconf.sh
 55. chroot_install_automake.sh
 56. chroot_install_openssl.sh
-57.
+57. chroot_install_kmod.sh
 58.
 59.
 60.
