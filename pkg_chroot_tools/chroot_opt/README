@@ -56,5 +56,5 @@
 56. chroot_install_openssl.sh
 57. chroot_install_kmod.sh
 58. chroot_install_elfutils.sh
-59.
+59. chroot_install_libffi.sh
 60.
