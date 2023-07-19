@@ -52,7 +52,7 @@
 52. chroot_install_xml-parser.sh
 53. chroot_install_intltool.sh
 54. chroot_install_autoconf.sh
-55.
+55. chroot_install_automake.sh
 56.
 57.
 58.
