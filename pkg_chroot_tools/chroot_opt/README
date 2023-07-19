@@ -53,7 +53,7 @@
 53. chroot_install_intltool.sh
 54. chroot_install_autoconf.sh
 55. chroot_install_automake.sh
-56.
+56. chroot_install_openssl.sh
 57.
 58.
 59.
