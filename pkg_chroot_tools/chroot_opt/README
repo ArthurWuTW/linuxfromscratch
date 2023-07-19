@@ -58,7 +58,7 @@
 58. chroot_install_elfutils.sh
 59. chroot_install_libffi.sh
 60. chroot_install_python_reinstall.sh
-61.
+61. chroot_install_wheel.sh
 62.
 63.
 64.
