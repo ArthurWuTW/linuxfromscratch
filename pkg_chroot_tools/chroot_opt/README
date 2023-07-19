@@ -50,7 +50,7 @@
 50. chroot_install_less.sh
 51. chroot_install_perl2.sh
 52. chroot_install_xml-parser.sh
-53.
+53. chroot_install_intltool.sh
 54.
 55.
 56.
