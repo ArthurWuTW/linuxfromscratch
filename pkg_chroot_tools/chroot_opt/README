@@ -60,7 +60,7 @@
 60. chroot_install_python_reinstall.sh
 61. chroot_install_wheel.sh
 62. chroot_install_ninja.sh
-63.
+63. chroot_install_meson.sh
 64.
 65.
 66.
