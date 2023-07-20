@@ -62,7 +62,7 @@
 62. chroot_install_ninja.sh
 63. chroot_install_meson.sh
 64. chroot_install_coreutil.sh
-65.
+65. chroot_install_check.sh
 66.
 67.
 68.
