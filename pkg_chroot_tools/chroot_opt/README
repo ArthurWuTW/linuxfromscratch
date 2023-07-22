@@ -71,7 +71,7 @@
 71. chroot_install_gzip.sh
 72. chroot_install_iproute2.sh
 73. chroot_install_kbd.sh
-74.
+74. chroot_install_libpipeline.sh
 75.
 76.
 77.
