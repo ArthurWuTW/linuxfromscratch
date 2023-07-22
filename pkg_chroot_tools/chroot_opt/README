@@ -75,6 +75,6 @@
 75. chroot_install_make.sh
 76. chroot_install_patch.sh
 77. chroot_install_tar.sh
-78.
+78. chroot_install_texinfo2.sh
 79.
 80.
