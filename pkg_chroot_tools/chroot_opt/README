@@ -77,7 +77,7 @@
 77. chroot_install_tar.sh
 78. chroot_install_texinfo2.sh
 79. chroot_install_vim.sh
-80.
+80. chroot_install_eudev.sh
 81.
 82.
 83.
