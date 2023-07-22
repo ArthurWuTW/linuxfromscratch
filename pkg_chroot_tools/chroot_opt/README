@@ -82,7 +82,7 @@
 82. chroot_install_procps-ng.sh
 83. chroot_install_util-linux2.sh
 84. chroot_install_e2fsprogs.sh
-85.
+85. chroot_install_sysklogd.sh
 86.
 87.
 88.
