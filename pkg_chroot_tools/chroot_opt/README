@@ -68,7 +68,7 @@
 68. chroot_install_findutils.sh
 69. chroot_install_groff.sh
 70. chroot_install_grub_no_uefi.sh
-71.
+71. chroot_install_gzip.sh
 72.
 73.
 74.
