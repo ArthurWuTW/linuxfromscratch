@@ -80,7 +80,7 @@
 80. chroot_install_eudev.sh
 81. chroot_install_man-db.sh
 82. chroot_install_procps-ng.sh
-83.
+83. chroot_install_util-linux2.sh
 84.
 85.
 86.
