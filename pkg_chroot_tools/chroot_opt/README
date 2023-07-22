@@ -70,7 +70,7 @@
 70. chroot_install_grub_no_uefi.sh
 71. chroot_install_gzip.sh
 72. chroot_install_iproute2.sh
-73.
+73. chroot_install_kbd.sh
 74.
 75.
 76.
