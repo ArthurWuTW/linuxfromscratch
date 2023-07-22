@@ -67,7 +67,7 @@
 67. chroot_install_gawk.sh
 68. chroot_install_findutils.sh
 69. chroot_install_groff.sh
-70.
+70. chroot_install_grub_no_uefi.sh
 71.
 72.
 73.
