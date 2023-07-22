@@ -78,7 +78,7 @@
 78. chroot_install_texinfo2.sh
 79. chroot_install_vim.sh
 80. chroot_install_eudev.sh
-81.
+81. chroot_install_man-db.sh
 82.
 83.
 84.
