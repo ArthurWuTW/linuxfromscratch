@@ -83,7 +83,7 @@
 83. chroot_install_util-linux2.sh
 84. chroot_install_e2fsprogs.sh
 85. chroot_install_sysklogd.sh
-86.
+86. chroot_install_sysvinit.sh
 87.
 88.
 89.
