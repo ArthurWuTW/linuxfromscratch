@@ -73,7 +73,7 @@
 73. chroot_install_kbd.sh
 74. chroot_install_libpipeline.sh
 75. chroot_install_make.sh
-76.
+76. chroot_install_patch.sh
 77.
 78.
 79.
