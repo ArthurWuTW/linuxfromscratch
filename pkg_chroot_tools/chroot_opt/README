@@ -66,7 +66,7 @@
 66. chroot_install_diffutils.sh
 67. chroot_install_gawk.sh
 68. chroot_install_findutils.sh
-69.
+69. chroot_install_groff.sh
 70.
 71.
 72.
