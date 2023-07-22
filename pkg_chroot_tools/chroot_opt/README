@@ -72,7 +72,7 @@
 72. chroot_install_iproute2.sh
 73. chroot_install_kbd.sh
 74. chroot_install_libpipeline.sh
-75.
+75. chroot_install_make.sh
 76.
 77.
 78.
