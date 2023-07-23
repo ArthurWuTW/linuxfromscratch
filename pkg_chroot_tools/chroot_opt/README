@@ -84,7 +84,7 @@
 84. chroot_install_e2fsprogs.sh
 85. chroot_install_sysklogd.sh
 86. chroot_install_sysvinit.sh
-87.
+87. chroot_install_lfs-bootscripts.sh
 88.
 89.
 90.
