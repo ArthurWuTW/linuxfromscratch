@@ -85,7 +85,7 @@
 85. chroot_install_sysklogd.sh
 86. chroot_install_sysvinit.sh
 87. chroot_install_lfs-bootscripts.sh
-88. chroot_configure_default_networking.sh
+88. chroot_system_configuration.sh
 89.
 90.
 91.

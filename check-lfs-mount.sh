@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MOUNT_POINT=/dev/sdc2
+MOUNT_POINT=/dev/sdb2
 LFS_DIR=/mnt/lfs
 
 if [ ! -d ${LFS_DIR} ];
