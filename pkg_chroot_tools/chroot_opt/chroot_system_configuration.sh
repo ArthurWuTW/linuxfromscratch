@@ -145,8 +145,7 @@ cat > /etc/fstab << "EOF"
 # file system  mount-point  type     options             dump  fsck
 #                                                              order
 
-/dev/sdb1     /boot         ext2    defaults            0     0
-/dev/sdb2     /             ext2    defaults            1     1
+/dev/sdb2     /             ext2    defaults            0     0
 
 proc           /proc        proc     nosuid,noexec,nodev 0     0
 sysfs          /sys         sysfs    nosuid,noexec,nodev 0     0
