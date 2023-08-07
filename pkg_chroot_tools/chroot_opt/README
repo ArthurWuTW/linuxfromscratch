@@ -87,7 +87,7 @@
 87. chroot_install_lfs-bootscripts.sh
 88. chroot_system_configuration.sh
 89. chroot_install_linux.sh
-90.
+90. chroot_manual_boot_configure.sh
 91.
 92.
 93.
