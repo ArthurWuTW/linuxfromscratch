@@ -45,7 +45,7 @@ do
   if [ -d ${LFS_PKG}/${DEPEND_ALL[i]} ];
   then
     FILENAME_WITHOUT_VERSION=$(echo ${DEPEND_ALL[i]} | cut -d"-" -f 1)
-    
+
     if [ ! -d ${LFS_PKG}/${FILE}/${FILENAME_WITHOUT_VERSION} ];
     then
       cp -rv ${LFS_PKG}/${DEPEND_ALL[i]} ${LFS_PKG}/${FILE}/${FILENAME_WITHOUT_VERSION}
@@ -86,12 +86,16 @@ cd build
   --disable-libvtv \
   --enable-languages=c,c++
 
+  # Issue:
+  #   If autoconf version mismatch error, do this command
+  #configure.ac:54: error: version mismatch.  This is Automake 1.16.1,
+  #configure.ac:54: but the definition used by this AM_INIT_AUTOMAKE
+  #configure.ac:54: comes from Automake 1.16.5.  You should recreate
+  #configure.ac:54: aclocal.m4 with aclocal and run automake again.
+  #WARNING: 'automake-1.16' is probably too old.
+
+  #cd ${SRC_DIR}/${FILE}/mpfr && autoreconf
+
 make
 make DESTDIR=$LFS install
 ln -sv gcc $LFS/usr/bin/cc
-
-
-
-
-
-
