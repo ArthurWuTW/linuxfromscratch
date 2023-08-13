@@ -35,7 +35,7 @@ do
   if [ -d ${SRC_DIR}/${DEPEND_ALL[i]} ];
   then
     FILENAME_WITHOUT_VERSION=$(echo ${DEPEND_ALL[i]} | cut -d"-" -f 1)
-    
+
     if [ ! -d ${SRC_DIR}/${FILE}/${FILENAME_WITHOUT_VERSION} ];
     then
       cp -rv ${SRC_DIR}/${DEPEND_ALL[i]} ${SRC_DIR}/${FILE}/${FILENAME_WITHOUT_VERSION}
@@ -53,7 +53,7 @@ case $(uname -m) in
 ;;
 esac
 
-# Issue: 
+# Issue:
 #   If autoconf version mismatch error, do this command
 #configure.ac:54: error: version mismatch.  This is Automake 1.16.1,
 #configure.ac:54: but the definition used by this AM_INIT_AUTOMAKE
@@ -94,4 +94,4 @@ make install
 
 cd ${SRC_DIR}/${FILE}
 cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
-`dirname $($LFS_TGT-gcc -print-libgcc-file-name)`/install-tools/include/limits.h
+`dirname $($LFS/tools/bin/$LFS_TGT-gcc -print-libgcc-file-name)`/install-tools/include/limits.h
