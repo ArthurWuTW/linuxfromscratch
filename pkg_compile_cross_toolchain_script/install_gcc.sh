@@ -61,7 +61,7 @@ esac
 #configure.ac:54: aclocal.m4 with aclocal and run automake again.
 #WARNING: 'automake-1.16' is probably too old.
 
-#cd ${SRC_DIR}/${FILE}/mpfr && autoreconf
+cd ${SRC_DIR}/${FILE}/mpfr && autoreconf
 
 
 cd ${SRC_DIR}/${FILE}
