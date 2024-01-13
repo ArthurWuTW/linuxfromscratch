@@ -31,13 +31,13 @@ echo "rootsbindir=/usr/sbin" > configparms
   --with-headers=/usr/include \
   libc_cv_slibdir=/usr/lib
 
-make
-make check
+make -j4
+make -j4 check
 
 touch /etc/ld.so.conf
 sed '/test-installation/s@$(PERL)@echo not running@' -i ../Makefile
 
-make install
+make -j4 install
 
 sed '/RTLDLIST=/s@/usr@@g' -i /usr/bin/ldd
 
