@@ -86,15 +86,6 @@
 86. chroot_install_sysvinit.sh
 87. chroot_install_lfs-bootscripts.sh
 88. chroot_system_configuration.sh
-89. chroot_install_linux.sh <-- copy boot related files to /boot
-90. chroot_manual_boot_configure.sh
-91.
-92.
-93.
-94.
-95.
-96.
-97.
-98.
-99.
-100.
+89. chroot_configure_etc_fstab.sh
+90. chroot_install_linux.sh <-- copy boot related files to /boot
+91. chroot_manual_boot_configure.sh

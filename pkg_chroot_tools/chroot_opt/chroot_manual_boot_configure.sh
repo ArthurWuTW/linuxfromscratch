@@ -7,8 +7,8 @@ else
 fi
 
 echo "============================================================================"
-echo "Manual Step: >> grub-install <LFS_PARTITION> (ex: grub-install /dev/sdb2 --target i386-pc --force)"
-echo "<LFS_PARTITION>: see the filesystem below with command >> df -kh"
+echo "Manual Step: >> grub-install <LFS_FILE_SYSTEM> (ex: grub-install /dev/sdb)"
+echo "<LFS_FILE_SYSTEM>: see the filesystem below with command >> df -kh"
 echo "============================================================================"
 
 BOOT_DF=$(df -kh | grep boot)
