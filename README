@@ -1,4 +1,0 @@
-1. ./run.sh
-2. cd pkg_compile_cross_toolchain_script && ./install_all.sh
-3. cd pkg_cross_compiling_temporary_tools_script && ./lfs_user_install_all.sh
-4. cd pkg_chroot_tools
