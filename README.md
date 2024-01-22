@@ -61,3 +61,6 @@ cd pkg_chroot_tools && cat README ## following README
 
 3. Infra after modification
 ![Alt text](img/lfs-networking-infra.jpg)
+
+4. ping google.com again
+![Alt text](img/image9.png)
