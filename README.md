@@ -51,4 +51,13 @@ cd pkg_chroot_tools && cat README ## following README
 ## Setup QEMU Boot Order
 ![Alt text](img/image7.png)
 
-## Setup Networking
+## Troubleshooting
+### ping google.com hanging
+1. Observe infrastructure from QEMU Environment
+![Alt text](img/infra.jpg)
+
+2. Modify ifconif.eth0
+![Alt text](img/image8.png)
+
+3. Infra after modification
+![Alt text](img/lfs-networking-infra.jpg)
