@@ -70,34 +70,35 @@ PermitRootLogin yes
 ### pinging google.com hangs
 1. Observe infrastructure from QEMU Environment
 ![Alt text](img/infra.jpg)
-
 2. Modify ifconfig.eth0
 ![Alt text](img/image8.png)
-
 3. Infra after modification
 ![Alt text](img/lfs-networking-infra.jpg)
-
 4. ping google.com again
 ![Alt text](img/image9.png)
+
 
 ### Grub failed, cannot find vmlinuz-6.1.11-lfs-11.3
 1. type "c"  
 ![Alt text](img/gnu_grub.png)
-
 2. type "cd (hd" and press tab, and you will see disks and partitions recognized by grub
 ![Alt text](img/find_boot_disk_partition.png)
-
 3. setup root path in /boot/grub/grub.cfg file, in this case, root path is (hd0, msdos1)
 ```sh
 set root=(hd0, msdos1)
 ```
 
-### VFS: Cannot find
+
+### VFS: Unable to mount root fs
+![Alt text](img/VFS_unable_to_mount_root_fs.png)
+1. Disk2 partitions were SOMETIMES recognized as /dev/sdc1, /dev/sdc2, and /dev/sdc3, but we expect /dev/sdb1~3, so if we configure grub.cfg like /dev/sdbX, it will casue this error.
+2. It is highly recommanded to specify partitions by PARTUUID, command below shows partition PARTUUID information.
 ```sh
 blkid
 # /dev/sdb3: UUID="17b539e0-9a73-482c-ba8b-70e3353ba187" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="b4d939e3-03"
-
-# Use PARTUUID
+```
+3. specify root=PARTUUID=XXXX 
+```sh
 vi /boot/grub/grub.cfg
 # set default=0
 # set timeout=5
@@ -108,7 +109,7 @@ vi /boot/grub/grub.cfg
 # menuentry "GNU/Linux, Linux 6.1.11-lfs-11.3" {
 #         linux   /vmlinuz-6.1.11-lfs-11.3 root=PARTUUID=b4d939e3-03 ro
 # }
-
-
-
 ```
+4. LFS boots successfully
+![Alt text](img/lfs.png)
+
