@@ -91,3 +91,24 @@ PermitRootLogin yes
 ```sh
 set root=(hd0, msdos1)
 ```
+
+### VFS: Cannot find
+```sh
+blkid
+# /dev/sdb3: UUID="17b539e0-9a73-482c-ba8b-70e3353ba187" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="b4d939e3-03"
+
+# Use PARTUUID
+vi /boot/grub/grub.cfg
+# set default=0
+# set timeout=5
+#
+# insmod ext2
+# set root=(hd0,msdos1)
+#
+# menuentry "GNU/Linux, Linux 6.1.11-lfs-11.3" {
+#         linux   /vmlinuz-6.1.11-lfs-11.3 root=PARTUUID=b4d939e3-03 ro
+# }
+
+
+
+```
