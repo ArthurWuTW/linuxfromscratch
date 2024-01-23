@@ -52,7 +52,7 @@ cd pkg_chroot_tools && cat README ## following README
 ![Alt text](img/image7.png)
 
 ## TO-DO List
-- [*] Install sshd
+- [x] Install sshd
 ```sh
 cd /opt
 ./chroot_install_openssh.sh
