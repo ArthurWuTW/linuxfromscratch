@@ -52,7 +52,17 @@ cd pkg_chroot_tools && cat README ## following README
 ![Alt text](img/image7.png)
 
 ## TO-DO List
-- [ ] Install sshd
+- [*] Install sshd
+```sh
+cd /opt
+./chroot_install_openssh.sh
+vi /etc/ssh/sshd_config
+## Set root login config
+## === modify this line ===
+PermitRootLogin yes
+```
+
+
 - [ ] Install netstat
 
 
@@ -61,7 +71,7 @@ cd pkg_chroot_tools && cat README ## following README
 1. Observe infrastructure from QEMU Environment
 ![Alt text](img/infra.jpg)
 
-2. Modify ifconif.eth0
+2. Modify ifconfig.eth0
 ![Alt text](img/image8.png)
 
 3. Infra after modification
@@ -69,3 +79,15 @@ cd pkg_chroot_tools && cat README ## following README
 
 4. ping google.com again
 ![Alt text](img/image9.png)
+
+### Grub failed, cannot find vmlinuz-6.1.11-lfs-11.3
+1. type "c"  
+![Alt text](img/gnu_grub.png)
+
+2. type "cd (hd" and press tab, and you will see disks and partitions recognized by grub
+![Alt text](img/find_boot_disk_partition.png)
+
+3. setup root path in /boot/grub/grub.cfg file, in this case, root path is (hd0, msdos1)
+```sh
+set root=(hd0, msdos1)
+```
