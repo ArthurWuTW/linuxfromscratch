@@ -53,6 +53,8 @@ cd pkg_chroot_tools && cat README ## following README
 
 ## TO-DO List
 - [ ] Install sshd
+- [ ] Install netstat
+
 
 ## Troubleshooting
 ### pinging google.com hangs
