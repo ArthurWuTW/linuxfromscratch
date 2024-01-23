@@ -111,5 +111,6 @@ vi /boot/grub/grub.cfg
 # }
 ```
 4. LFS boots successfully
+
 ![Alt text](img/lfs.png)
 
