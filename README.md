@@ -13,7 +13,7 @@ Virtual Machine Environment: QEMU<br />
 ![Alt text](img/image-2.png)
 
 ## Install Virtual Machine Host OS
-1. Install OS in Virtual Disk 1(sda) by default Linux partition settings
+1. Install RockyLiunx 8 OS in Virtual Disk 1(sda) by default Linux partition settings
 ![Alt text](img/image-4.png)
 2. prepare LFS partition
 ```sh
@@ -51,8 +51,11 @@ cd pkg_chroot_tools && cat README ## following README
 ## Setup QEMU Boot Order
 ![Alt text](img/image7.png)
 
+## TO-DO List
+- [ ] Install sshd
+
 ## Troubleshooting
-### ping google.com hanging
+### pinging google.com hangs
 1. Observe infrastructure from QEMU Environment
 ![Alt text](img/infra.jpg)
 
