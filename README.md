@@ -79,9 +79,9 @@ PermitRootLogin yes
 
 
 ### Grub failed, cannot find vmlinuz-6.1.11-lfs-11.3
-1. press "c"  
+1. press `c`  
 ![Alt text](img/gnu_grub.png)
-2. type "cd (hd" and press tab, and you will see disks and partitions recognized by grub
+2. type `cd (hd` and press tab, and you will see disks and partitions recognized by grub
 ![Alt text](img/find_boot_disk_partition.png)
 3. setup root path in /boot/grub/grub.cfg file, in this case, root path is (hd0, msdos1)
 ```sh
