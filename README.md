@@ -63,9 +63,11 @@ vi /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
+- [ ] Install wget
 
 - [ ] Install netstat
 
+- [ ] Install Gnome
 
 ## Troubleshooting
 ### pinging google.com hangs
