@@ -34,6 +34,7 @@ lsblk
 3. format partitions
 ```sh
 mkfs -v -t ext4 /dev/sdb1
+mkswap /dev/sdb2
 mkfs -v -t ext4 /dev/sdb3
 ```
 
