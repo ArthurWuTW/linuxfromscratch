@@ -9,6 +9,8 @@ then
 #  echo "Run change_mnt_lfs_owner_to_lfs_user.sh..."
 #  ./change_mnt_lfs_owner_to_lfs_user.sh
 
+else
+
   echo "Run install_m4.sh..."
   ./install_m4.sh
 
