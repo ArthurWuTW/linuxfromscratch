@@ -20,7 +20,7 @@ Virtual Machine Environment: QEMU<br />
 lsblk
 ## sdb      8:16    0    70G   0 disk
 
-gdisk /dev/sdb
+fdisk /dev/sdb
 ## create three partitions sdb1(512M), sdb2(1G), sdb3(68.5G) by command (ref: https://linux.die.net/man/8/gdisk). Note that sdb2 needs to change type "Linux swap / Solaris"(hex code=82)
 ## sdb1: /boot partition
 ## sdb2: swap
