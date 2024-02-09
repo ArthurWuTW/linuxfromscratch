@@ -1,3 +1,4 @@
 cd linuxfromscratch/pkg_cross_compiling_temporary_tools_script/
+./change_mnt_lfs_owner_to_lfs_user.sh
 su lfs
 ./lfs_user_install_all.sh
